@@ -250,6 +250,15 @@ def chequear_stock(url: str, sku: str = "", timeout_ms: int = 60000,
         page.on("response", on_response)
         page.goto(url, wait_until="domcontentloaded", timeout=timeout_ms)
         page.wait_for_timeout(espera_extra_s * 1000)
+        # Si la ficha GraphQL no se interceptó (red lenta / bloqueo), un reload
+        # antes de fallar a etapa 2 con ficha vacía.
+        if not ficha:
+            log("Sin ficha interceptada, reintentando con reload...")
+            try:
+                page.reload(wait_until="domcontentloaded", timeout=timeout_ms)
+                page.wait_for_timeout((espera_extra_s // 2 + 4) * 1000)
+            except Exception as e:
+                log(f"Reload falló: {e}")
         try:
             texto = page.inner_text("body")
         except Exception:
@@ -324,6 +333,16 @@ def chequear_stock(url: str, sku: str = "", timeout_ms: int = 60000,
                     "verificacion": sap}
 
         d = sap.get("resp") or {}
+        # Sin respuesta del servicio SAP (resp vacío/nulo): no es verificable,
+        # NO clasificar como falso-positivo. Queda dudoso para reintentar.
+        if not d:
+            return {"hay_stock_real": None, "etapa": "sap-error",
+                    "nombre": nombre_pagina,
+                    "ficha": {"estado_stock": estado_stock, "estado_producto": estado_producto,
+                              "stock_vm05": stock_vm05, "sku": ficha.get("sku") if ficha else sku_pagina,
+                              "precio": (ficha.get("special_price") or ficha.get("price")) if ficha else None},
+                    "verificacion": {"error": "sap-sin-respuesta", "raw_len": sap.get("raw_len"),
+                                     "hubo_ficha": hubo_ficha, "texto_len": len(texto or "")}}
         detalle = (d.get("detalle") or "").strip()
         try:
             cantidad = int(str(d.get("cantidad", "0")))

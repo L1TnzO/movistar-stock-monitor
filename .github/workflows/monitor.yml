@@ -47,7 +47,10 @@ jobs:
           MONITOR_CLOUD: "1"
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
-        run: python3 monitor.py --once --no-open
+        run: |
+          set +e
+          python3 monitor.py --once --no-open
+          echo "MONITOR_EXIT=$?"
 
       - name: Save state for next run
         if: always()
