@@ -1,0 +1,71 @@
+producto,sku,btn_estatico,etapa,hay_stock_real,ficha_vm05,sap_cantidad,sap_detalle,precio,url
+Xiaomi 15 5G 512GB Negro Medianoche (Seminuevo) | Movistar,TM5CLXI00015NE12RF,0,ficha-sin-stock,False,0,,,$329.990,https://catalogo.movistar.cl/tienda/xiaomi-15-5g-512gb-negro-medianoche-seminuevo
+Motorola Moto Edge 50 Pro 5G 512GB Blanco (Seminuevo) | Movistar,TM5CLMO0E50PBL12RF,0,ficha-sin-stock,False,0,,,$149.990,https://catalogo.movistar.cl/tienda/motorola-moto-edge-50-pro-5g-512gb-blanco-seminuevo
+Apple Airpods 4 Blanco (Seminuevo) | Movistar,TAGCLAPAIRP4BL00RF,2,verificado-con-stock,True,1,1,con-stock,$97.990,https://catalogo.movistar.cl/tienda/apple-airpods-4-blanco-seminuevo
+Apple iPad Air 10.5 Wifi Silver (Seminuevo) | Movistar,TM4CLAPIA10WPL64RF,2,falso-positivo,False,1,0,sin-stock,$190.990,https://catalogo.movistar.cl/tienda/apple-ipad-air-10-5-wifi-silver-seminuevo
+Apple iPhone 12 128GB Blanco (Seminuevo) | Movistar,TM4CLAP12IPHBL28RF,2,verificado-con-stock,True,1,1,con-stock,$369.990,https://catalogo.movistar.cl/tienda/apple-iphone-12-128gb-white-seminuevo
+Apple iPhone 13 128 GB Medianoche + Lámina (Reacondicionado) | Movista,TM5CLAPIP13LNZ28RF,2,verificado-con-stock,True,7,6,con-stock,$349.990,https://catalogo.movistar.cl/tienda/apple-iphone-13-128-gb-medianoche-seminuevo
+Apple iPhone 15 128GB Negro | Movistar,TM5CLAPIPH15NE28NU,2,verificado-con-stock,True,75,73,con-stock,$729.990,https://catalogo.movistar.cl/tienda/apple-iphone-15-128gb-negro
+Apple iPhone 15 128GB Negro + Lámina (Seminuevo) | Movistar,TM5CLAPIP15LNE28RF,2,falso-positivo,False,3,0,sin-stock,$499.990,https://catalogo.movistar.cl/tienda/apple-iphone-15-128gb-negro-lamina-seminuevo
+Apple iPhone 16 128GB Negro | Movistar,TM5CLAPIPH16NE28NU,2,verificado-con-stock,True,8,8,con-stock,$859.990,https://catalogo.movistar.cl/tienda/apple-iphone-16-128gb-negro
+Apple iPhone 16 Pro 128GB Titanio Negro + Lámina (Seminuevo) | Movista,TM5CLAP16PRLNE28RF,2,falso-positivo,False,3,0,sin-stock,$729.990,https://catalogo.movistar.cl/tienda/apple-iphone-16-pro-128-gb-titanio-negro-mas-lamina-seminuevo
+Apple iPhone 16 Pro Max 256GB Titanio Del Desierto + Lámina (Seminuevo,TM5CLAP16PMLDO56RF,2,verificado-con-stock,True,496,476,con-stock,$829.990,https://catalogo.movistar.cl/tienda/apple-iphone-16-pro-max-256-gb-titanio-del-desierto-mas-lamina-seminuevo
+Apple iPhone 16e 128GB Negro | Movistar,TM5CLAPIP16ENE28NU,2,verificado-con-stock,True,16,14,con-stock,$569.990,https://catalogo.movistar.cl/tienda/apple-iphone-16e-128-gb-negro
+Apple iPhone 16e 128GB Negro + Lámina (Seminuevo) | Movistar,TM5CLAPI16ELNE28RF,2,verificado-con-stock,True,1,1,con-stock,$449.990,https://catalogo.movistar.cl/tienda/apple-iphone-16e-128gb-negro-mas-lamina-seminuevo
+Apple iPhone 17 Pro Max 256GB Naranja Cosmico | Movistar,TM5CLAP017PMNA56NU,2,verificado-con-stock,True,11,10,con-stock,$1.529.990,https://catalogo.movistar.cl/tienda/apple-iphone-17-pro-max-256gb-naranja-cosmico
+Apple iPhone 17e 256GB Negro | Movistar,TM5CLAPIP17ENE56NU,2,verificado-con-stock,True,10,9,con-stock,$689.990,https://catalogo.movistar.cl/tienda/apple-iphone-17e-256gb-negro
+Apple Usb-C A Lightning Charge Cable 1M  White (Seminuevo) | Movistar,TAPCLAPCHC1M0000RF,2,verificado-con-stock,True,301,301,con-stock,$13.990,https://catalogo.movistar.cl/tienda/apple-usb-c-a-lightning-charge-cable-1m-white-seminuevo
+Apple Watch S9 Cellular 45mm Talla M/L Media Noche (Seminuevo) | Movis,TAGCLAPS9CMLNZ45RF,2,verificado-con-stock,True,1,1,con-stock,$269.990,https://catalogo.movistar.cl/tienda/apple-watch-s9-cellular-45mm-talla-ml-media-noche-seminuevo
+Honor 400 5G 512GB Negro (Seminuevo) | Movistar,TM5CLHN00400NE12RF,2,verificado-con-stock,True,3,3,con-stock,$299.990,https://catalogo.movistar.cl/tienda/honor-400-5g-512gb-negro-seminuevo
+Honor 400 Smart 5G 256GB Dorado | Movistar,TM5CLHN400SMDO56NU,2,verificado-con-stock,True,9,9,con-stock,$219.990,https://catalogo.movistar.cl/tienda/honor-400-smart-256gb-dorado
+Honor Choice Watch 2i Negro (Seminuevo) | Movistar,TAGCLHNCWA2INE00RF,2,verificado-con-stock,True,1,1,con-stock,$21.990,https://catalogo.movistar.cl/tienda/honor-choice-watch-2i-negro-seminuevo
+Honor Magic 7 Pro 512GB Gris (Seminuevo) | Movistar,TM5CLHNM7PROPL12RF,2,verificado-con-stock,True,7,7,con-stock,$699.990,https://catalogo.movistar.cl/tienda/honor-magic-7-pro-5g-512gb-gris-seminuevo
+Honor Magic 8 Lite 512GB Negro + Honor X8i Noicecancelling | Movistar,TM5CLHNM8LIBNE12NU,2,falso-positivo,False,0,0,sin-stock,$349.990,https://catalogo.movistar.cl/tienda/honor-magic-8-lite-512-gb-negro-mas-honor-x8i-noicecancelling
+Honor Magic 8 Lite 5G 512GB negro (Seminuevo) | Movistar,TM5CLHNM8LITNE12RF,2,falso-positivo,False,12,0,sin-stock,$249.990,https://catalogo.movistar.cl/tienda/honor-magic-8-lite-5g-512gb-negro-seminuevo
+Honor X5c Plus 256GB Gris | Movistar,TM4CLHNX5CPLGR56NU,2,falso-positivo,False,0,0,sin-stock,$124.990,https://catalogo.movistar.cl/tienda/honor-x5c-plus-256gb-gris
+Honor X6d 5G 256GB Negro | Movistar,TM5CLHN00X6DNE56NU,2,verificado-con-stock,True,9,9,con-stock,$159.990,https://catalogo.movistar.cl/tienda/honor-x6d-5g-256gb-negro
+HONOR X7E PLUS 5G 256GB PLATA | Movistar,TM5CLHNX7EPLPL56NU,2,falso-positivo,False,10,0,Error de conexion con servicio,$309.990,https://catalogo.movistar.cl/tienda/honor-x7e-plus-5g-256gb-plata
+Motorola Moto edge 60 fusion 256GB Azul | Movistar,TM5CLMOED60FAZ56NU,2,verificado-con-stock,True,17,15,con-stock,$289.990,https://catalogo.movistar.cl/tienda/motorola-moto-edge-60-fusion-256gb-azul
+Motorola Moto Edge 60 Fusion 256GB Azul (Seminuevo) | Movistar,TM5CLMOED60FAZ56RF,2,verificado-con-stock,True,1,1,con-stock,$209.990,https://catalogo.movistar.cl/tienda/motorola-moto-edge-60-fusion-256gb-azul-seminuevo
+Motorola Moto G06 4G 256GB azul (Seminuevo) | Movistar,TM4CLMOMOG06AZ56RF,2,falso-positivo,False,25,0,Error de conexion con servicio,$69.990,https://catalogo.movistar.cl/tienda/motorola-moto-g06-4g-256gb-azul-seminuevo
+Motorola Moto G35 5G 256GB Negro | Movistar,TM5CLMO00G35NE56NU,2,verificado-con-stock,True,9,8,con-stock,$149.990,https://catalogo.movistar.cl/tienda/motorola-moto-g35-5g-256gb-negro
+MOTOROLA MOTO G47 5G 128GB AZUL | Movistar,TM5CLMO00G47AZ28NU,2,verificado-con-stock,True,10,10,con-stock,$229.990,https://catalogo.movistar.cl/tienda/motorola-moto-g47-5g-128gb-azul
+MOTOROLA MOTO G47 5G 128GB GRIS | Movistar,TM5CLMO00G47GR28NU,2,verificado-con-stock,True,10,10,con-stock,$229.990,https://catalogo.movistar.cl/tienda/motorola-moto-g47-5g-128gb-gris
+Movistar Router CPE Blue-Castle FDD/TDD B38-BC-4GMCPGA (Seminuevo) | M,TM4CLBCFTB38BL00RF,2,verificado-con-stock,True,169,169,con-stock,$39.990,https://catalogo.movistar.cl/tienda/movistar-router-cpe-blue-castle-fdd-tdd-b38-bc-4gmcpga-seminuevo
+Oppo A6X 4G 128GB azul (Seminuevo) | Movistar,TM4CLOP00A6XAZ28RF,2,falso-positivo,False,3,0,sin-stock,$59.990,https://catalogo.movistar.cl/tienda/oppo-a6x-4g-128gb-azul-seminuevo
+Oppo A6X 5G 256GB Purpura (Seminuevo) | Movistar,TM5CLOP00A6XMO56RF,2,falso-positivo,False,1,0,sin-stock,$79.990,https://catalogo.movistar.cl/tienda/oppo-a6x-5g-256gb-purpura-seminuevo
+Samsung Galaxy A07 4G 128GB Negro | Movistar,TM4CLSAGAA07NE28NU,2,verificado-con-stock,True,15,14,con-stock,$119.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-a07-4g-128gb-negro
+Samsung Galaxy A17 5G 128GB Negro | Movistar,TM5CLSAGAA17NE28NU,2,verificado-con-stock,True,13,11,con-stock,$189.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-a17-5g-128gb-negro
+Samsung Galaxy A37 5G 128GB Gris | Movistar,TM5CLSAGAA37GR28NU,2,verificado-con-stock,True,24,24,con-stock,$309.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-a37-5g-128gb-gris
+Samsung Galaxy A37 5G 256GB Gris | Movistar,TM5CLSAGAA37GR56NU,2,verificado-con-stock,True,10,10,con-stock,$359.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-a37-5g-256gb-gris
+Samsung Galaxy A57 5G 128GB Gris | Movistar,TM5CLSAGAA57GR28NU,2,verificado-con-stock,True,9,9,con-stock,$369.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-a57-5g-128gb-gris
+Samsung Galaxy Buds3 White (Seminuevo) | Movistar,TAGCLSABUDS3BL00RF,2,verificado-con-stock,True,1,1,con-stock,$89.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-buds-3-white-seminuevo
+Samsung Galaxy Buds Core Negro | Movistar,TAGCLSAGBUCONE00NU,2,verificado-con-stock,True,26,23,con-stock,$37.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-buds-core-negro
+Samsung Galaxy Buds Core  Negro (Seminuevo) | Movistar,TAGCLSAGBUCONE00RF,2,verificado-con-stock,True,6,6,con-stock,$29.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-buds-core-negro-seminuevo
+Samsung  Galaxy Fit3  Dark Gray (Seminuevo) | Movistar,TAGCLSAGFIT3GR00RF,2,verificado-con-stock,True,4,4,con-stock,$27.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-fit3-dark-gray-seminuevo
+Samsung Galaxy S23 256 GB Black + Lámina (Seminuevo) | Movistar,TM5CLSA0S23BNE56RF,2,verificado-con-stock,True,1,1,con-stock,$469.980,https://catalogo.movistar.cl/tienda/samsung-galaxy-s23-256-gb-black-lamina-seminuevo
+Samsung Galaxy S24 FE 5G 256 GB Grafito (Seminuevo) | Movistar,TM5CLSAGS24FGR56RF,0,ficha-sin-stock,False,0,,,$349.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s24-fe-5g-256-gb-grafito-seminuevo
+Samsung Galaxy S25 5G 128GB Navy + Lámina (Seminuevo) | Movistar,TM5CLSAGS25LAZ28RF,2,verificado-con-stock,True,35,35,con-stock,$489.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-5g-128gb-navy-mas-lamina-seminuevo
+Samsung Galaxy S25 5G 256GB Navy | Movistar,TM5CLSAGAS25AZ56NU,2,verificado-con-stock,True,41,39,con-stock,$599.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-5g-256-gb-navy
+Samsung Galaxy S25 5G 256GB Navy + Lámina (Seminuevo) | Movistar,TM5CLSAGS25LAZ56RF,2,verificado-con-stock,True,2,2,con-stock,$529.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-5g-256gb-navy-mas-lamina-seminuevo
+Samsung Galaxy S25 FE 5G 128GB Negro | Movistar,TM5CLSAGS25FNE28NU,2,verificado-con-stock,True,4,3,con-stock,$479.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-fe-5g-128gb-negro
+Samsung Galaxy S25 FE 5G 256GB Negro | Movistar,TM5CLSAGS25FNE56NU,2,verificado-con-stock,True,34,31,con-stock,$479.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-fe-5g-256gb-negro
+Samsung Galaxy S25 Ultra 512GB Gray + Lámina (Seminuevo) | Movistar,TM5CLSAS25ULGR12RF,2,falso-positivo,False,1,0,sin-stock,$789.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-ultra-512gb-gray-mas-lamina-seminuevo
+Samsung Galaxy S25 Ultra 5G 256GB Titanium Gray + Lámina (Seminuevo) |,TM5CLSAS25ULGR56RF,2,verificado-con-stock,True,226,224,con-stock,$729.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-ultra-5g-256gb-titanium-gray-mas-lamina-seminuevo
+Samsung Galaxy S26 5G 256GB Negro | Movistar,TM5CLSAGAS26NE56NU,2,verificado-con-stock,True,7,7,con-stock,$699.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s26-5g-256gb-negro
+Samsung Galaxy S26+ 5G 512GB Negro | Movistar,TM5CLSAGS26PNE12NU,2,verificado-con-stock,True,1,1,con-stock,$929.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s26-plus-5g-512gb-negro
+Samsung Galaxy S26 Ultra 5G 256GB Negro | Movistar,TM5CLSAGS26UNE56NU,2,verificado-con-stock,True,25,24,con-stock,$999.990,https://catalogo.movistar.cl/tienda/samsung-galaxy-s26-ultra-5g-256gb-negro
+TCL Mifi MW45AM 4G Blanco (Seminuevo) | Movistar,TM4CLTCMF45ABL00RF,2,verificado-con-stock,True,238,237,con-stock,$27.990,https://catalogo.movistar.cl/tienda/tcl-mifi-mw45am-4g-blanco-seminuevo
+Vivo Y29s 5G 256GB Negro | Movistar,TM5CLV1Y29S0NE56NU,2,verificado-con-stock,True,3,3,con-stock,$164.990,https://catalogo.movistar.cl/tienda/vivo-y29s-5g-256gb-negro
+Xiaomi 15 Ultra 512GB Negro Medianoche (Seminuevo) | Movistar,TM5CLXI0015UNE12RF,2,verificado-con-stock,True,1,1,con-stock,$749.990,https://catalogo.movistar.cl/tienda/xiaomi-15-ultra-512gb-negro-medianoche-seminuevo
+Xiaomi 15 Ultra 5G 512GB Plata (Seminuevo) | Movistar,TM5CLXI0015UPL12RF,2,verificado-con-stock,True,4,3,con-stock,$749.990,https://catalogo.movistar.cl/tienda/xiaomi-15-ultra-5g-512gb-plata-seminuevo
+Xiaomi Adaptador Carga Rápida 22W White (Seminuevo) | Movistar,TAGCLXIADPCRBL22RF,2,verificado-con-stock,True,18,18,con-stock,$9.990,https://catalogo.movistar.cl/tienda/xiaomi-adaptador-carga-rapida-22w-white-seminuevo
+Xiaomi Redmi 15 5G 256GB Negro | Movistar,TM5CLXIRE150NE56NU,2,verificado-con-stock,True,26,26,con-stock,$199.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-15-5g-256gb-negro
+Xiaomi Redmi 15C 5G 256GB Negro | Movistar,TM5CLXIRE15CNE56NU,2,verificado-con-stock,True,2,1,con-stock,$159.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-15c-5g-256gb-negro
+Xiaomi Redmi Buds 6  Negro (Seminuevo) | Movistar,TAGCLXIREBU6NE00RF,2,verificado-con-stock,True,1,1,con-stock,$26.593,https://catalogo.movistar.cl/tienda/xiaomi-redmi-buds-6-negro-seminuevo
+Xiaomi Redmi Note 15 5G 256GB Negro | Movistar,TM5CLXIRNO15NE56NU,2,verificado-con-stock,True,10,6,con-stock,$259.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-note-15-5g-256gb-negro
+Xiaomi Redmi Note 15 Pro Plus 5G 512GB café (Seminuevo) | Movistar,TM5CLXIN15PPCA12RF,2,falso-positivo,False,6,0,Error de conexion con servicio,$299.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-note-15-pro-plus-5g-512gb-cafe-seminuevo
+Xiaomi Redmi Note 15 Pro+ 5G 512GB Marrón | Movistar,TM5CLXIN15PPCA12NU,2,verificado-con-stock,True,4,3,con-stock,$399.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-note-15-pro-plus-5g-512gb-marron
+Xiaomi Redmi Watch 5 Active Negro | Movistar,TAGCLXIRWA5ANE00NU,2,falso-positivo,False,7,0,sin-stock,$26.990,https://catalogo.movistar.cl/tienda/xiaomi-redmi-watch-5-active-black
+Xiaomi Watch S4 Negro (Seminuevo) | Movistar,TAGCLXIWATS4NE00RF,2,verificado-con-stock,True,1,1,con-stock,$92.390,https://catalogo.movistar.cl/tienda/xiaomi-watch-s4-negro-seminuevo
+ZTE Nubia Air 5G 256GB negro (Seminuevo) | Movistar,TM5CLZTNUAIRNE56RF,2,falso-positivo,False,9,0,sin-stock,$159.990,https://catalogo.movistar.cl/tienda/zte-nubia-air-5g-256gb-negro-seminuevo

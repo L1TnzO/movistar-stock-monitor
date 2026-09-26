@@ -1,0 +1,58 @@
+{
+  "hay_stock_real": false,
+  "ts": "2026-09-22T17:15:16.082425",
+  "detalle": {
+    "hay_stock_real": false,
+    "etapa": "ficha-sin-stock",
+    "ficha": {
+      "estado_stock": false,
+      "estado_producto": false,
+      "stock_vm05": 0,
+      "stock_am47": 0,
+      "sku": "TM5CLXI00015NE12RF",
+      "precio": "$329.990"
+    },
+    "verificacion": null
+  },
+  "productos": {
+    "https://catalogo.movistar.cl/tienda/xiaomi-15-5g-512gb-negro-medianoche-seminuevo": {
+      "nombre": "Xiaomi 15 5G 512GB Negro Medianoche (Seminuevo)",
+      "hay_stock_real": false,
+      "ts": "2026-09-25T21:50:35.258796",
+      "detalle": {
+        "hay_stock_real": false,
+        "etapa": "ficha-sin-stock",
+        "nombre": "Xiaomi 15 5G 512GB Negro Medianoche (Seminuevo)",
+        "ficha": {
+          "estado_stock": false,
+          "estado_producto": false,
+          "stock_vm05": 0,
+          "stock_am47": 0,
+          "sku": "TM5CLXI00015NE12RF",
+          "precio": "$329.990"
+        },
+        "verificacion": null
+      }
+    },
+    "https://catalogo.movistar.cl/tienda/motorola-moto-edge-50-pro-5g-512gb-blanco-seminuevo": {
+      "nombre": "Motorola Moto Edge 50 Pro 5G 512GB Blanco (Seminuevo)",
+      "hay_stock_real": false,
+      "ts": "2026-09-25T21:50:50.480747",
+      "detalle": {
+        "hay_stock_real": false,
+        "etapa": "ficha-sin-stock",
+        "nombre": "Motorola Moto Edge 50 Pro 5G 512GB Blanco (Seminuevo)",
+        "ficha": {
+          "estado_stock": false,
+          "estado_producto": false,
+          "stock_vm05": 0,
+          "stock_am47": 0,
+          "sku": "TM5CLMO0E50PBL12RF",
+          "precio": "$149.990"
+        },
+        "verificacion": null
+      }
+    }
+  },
+  "ultimo_ciclo": "2026-09-25T21:50:50.480756"
+}
