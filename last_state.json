@@ -18,7 +18,7 @@
     "https://catalogo.movistar.cl/tienda/xiaomi-15-5g-512gb-negro-medianoche-seminuevo": {
       "nombre": "Xiaomi 15 5G 512GB Negro Medianoche (Seminuevo)",
       "hay_stock_real": false,
-      "ts": "2026-09-25T21:50:35.258796",
+      "ts": "2026-09-26T03:45:52.193897",
       "detalle": {
         "hay_stock_real": false,
         "etapa": "ficha-sin-stock",
@@ -37,7 +37,7 @@
     "https://catalogo.movistar.cl/tienda/motorola-moto-edge-50-pro-5g-512gb-blanco-seminuevo": {
       "nombre": "Motorola Moto Edge 50 Pro 5G 512GB Blanco (Seminuevo)",
       "hay_stock_real": false,
-      "ts": "2026-09-25T21:50:50.480747",
+      "ts": "2026-09-26T03:46:08.401211",
       "detalle": {
         "hay_stock_real": false,
         "etapa": "ficha-sin-stock",
@@ -52,7 +52,45 @@
         },
         "verificacion": null
       }
+    },
+    "https://catalogo.movistar.cl/tienda/xiaomi-14-512-gb-black-seminuevo": {
+      "nombre": "Producto objetivo",
+      "hay_stock_real": false,
+      "ts": "2026-09-26T03:49:15.104887",
+      "detalle": {
+        "hay_stock_real": false,
+        "etapa": "ficha-sin-stock",
+        "nombre": "Producto objetivo",
+        "ficha": {
+          "estado_stock": false,
+          "estado_producto": false,
+          "stock_vm05": 0,
+          "stock_am47": 0,
+          "sku": "TM5CLXI00014NE12RF",
+          "precio": "$249.990"
+        },
+        "verificacion": null
+      }
+    },
+    "https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-fe-5g-256gb-negro-seminuevo": {
+      "nombre": "Producto objetivo",
+      "hay_stock_real": false,
+      "ts": "2026-09-26T03:49:30.241185",
+      "detalle": {
+        "hay_stock_real": false,
+        "etapa": "ficha-sin-stock",
+        "nombre": "Producto objetivo",
+        "ficha": {
+          "estado_stock": false,
+          "estado_producto": false,
+          "stock_vm05": 0,
+          "stock_am47": 0,
+          "sku": "TM5CLSAGS25FNE56RF",
+          "precio": "$399.990"
+        },
+        "verificacion": null
+      }
     }
   },
-  "ultimo_ciclo": "2026-09-25T21:50:50.480756"
+  "ultimo_ciclo": "2026-09-26T03:49:30.241196"
 }

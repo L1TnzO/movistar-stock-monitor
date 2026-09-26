@@ -58,6 +58,16 @@ PRODUCTOS = [
         "url": "https://catalogo.movistar.cl/tienda/motorola-moto-edge-50-pro-5g-512gb-blanco-seminuevo",
         "sku": "TM5CLMO0E50PBL12RF",
     },
+    {
+        "nombre": "Xiaomi 14 512 GB Black (Seminuevo)",
+        "url": "https://catalogo.movistar.cl/tienda/xiaomi-14-512-gb-black-seminuevo",
+        "sku": "TM5CLXI00014NE12RF",
+    },
+    {
+        "nombre": "Samsung Galaxy S25 FE 5G 256GB Negro (Seminuevo)",
+        "url": "https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-fe-5g-256gb-negro-seminuevo",
+        "sku": "TM5CLSAGS25FNE56RF",
+    },
 ]
 
 # Compatibilidad con referencias previas
