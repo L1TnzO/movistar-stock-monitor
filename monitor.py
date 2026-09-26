@@ -68,6 +68,12 @@ PRODUCTOS = [
         "url": "https://catalogo.movistar.cl/tienda/samsung-galaxy-s25-fe-5g-256gb-negro-seminuevo",
         "sku": "TM5CLSAGS25FNE56RF",
     },
+    {
+        # TEST TEMPORAL: tiene stock real, debe disparar email. Quitar después.
+        "nombre": "Xiaomi 15 Ultra 512GB Negro Medianoche (Seminuevo)",
+        "url": "https://catalogo.movistar.cl/tienda/xiaomi-15-ultra-512gb-negro-medianoche-seminuevo",
+        "sku": "TM5CLXI0015UNE12RF",
+    },
 ]
 
 # Compatibilidad con referencias previas
