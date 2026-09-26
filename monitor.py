@@ -69,8 +69,12 @@ URL_EJEMPLO_CON_STOCK = "https://catalogo.movistar.cl/tienda/xiaomi-15-ultra-5g-
 import os
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+# Email vía Resend: export RESEND_API_KEY=... ALERT_EMAIL=...
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
+ALERT_EMAIL = os.environ.get("ALERT_EMAIL", "thenzo22@gmail.com")
+RESEND_FROM = os.environ.get("RESEND_FROM", "onboarding@resend.dev")
 # Modo cloud (GitHub Actions, etc.): MONITOR_CLOUD=1 desactiva todo lo de
-# escritorio (notify-send, sonido, xdg-open) y activa aviso por Telegram
+# escritorio (notify-send, sonido, xdg-open) y avisa por email/Telegram
 # en --once solo ante transición a stock (usa last_state.json como caché).
 CLOUD = os.environ.get("MONITOR_CLOUD", "") == "1"
 
@@ -143,6 +147,37 @@ def enviar_telegram(texto: str):
         log("Telegram enviado OK")
     except Exception as e:
         log(f"Telegram falló: {e}")
+
+
+def enviar_email(asunto: str, texto: str, url: str = ""):
+    if not RESEND_API_KEY or not ALERT_EMAIL:
+        return
+    try:
+        import urllib.request
+        import html as html_mod
+        cuerpo = html_mod.escape(texto).replace("\n", "<br>")
+        if url:
+            cuerpo += f'<br><br><a href="{html_mod.escape(url)}">Ver producto</a>'
+        payload = {"from": RESEND_FROM, "to": ALERT_EMAIL,
+                   "subject": asunto, "html": f"<p>{cuerpo}</p>"}
+        req = urllib.request.Request(
+            "https://api.resend.com/emails",
+            data=json.dumps(payload).encode(),
+            headers={"Authorization": "Bearer " + RESEND_API_KEY,
+                     "Content-Type": "application/json",
+                     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) Chrome/120 Safari/537.36",
+                     "Accept": "application/json"},
+        )
+        urllib.request.urlopen(req, timeout=20).read()
+        log("Email enviado OK")
+    except Exception as e:
+        log(f"Email falló: {e}")
+
+
+def avisar(titulo: str, texto: str, url: str = ""):
+    """Aviso remoto: email (si hay RESEND_API_KEY) + Telegram (si configurado)."""
+    enviar_email(titulo, texto, url)
+    enviar_telegram(texto)
 
 
 def _verificar_sap(page, sku: str) -> dict:
@@ -416,7 +451,7 @@ def main():
                     sonar_alerta(2)
                     if not args.no_open:
                         abrir_pagina(url)
-                    enviar_telegram(msg)
+                    avisar(f"STOCK REAL: {nombre}", msg, url)
                 else:
                     log(f"[{nombre}] Sigue con stock real (ya avisado, sin re-aviso).")
             elif r.get("etapa") == "falso-positivo":
@@ -483,7 +518,7 @@ def main():
                         sonar_alerta(2)
                     if not args.no_open:
                         abrir_pagina(url)
-                    enviar_telegram(msg)
+                    avisar(f"STOCK REAL: {nombre_real}", msg, url)
                     falsos_seguidos[url] = 0
                 elif hay is True and prev_hay is True:
                     log(f"[{nombre_real}] Sigue con stock real, re-aviso corto")

@@ -45,8 +45,8 @@ jobs:
       - name: Run monitor (once)
         env:
           MONITOR_CLOUD: "1"
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
         run: python3 monitor.py --once --no-open
 
       - name: Save state for next run
